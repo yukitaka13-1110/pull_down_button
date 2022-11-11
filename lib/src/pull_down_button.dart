@@ -221,7 +221,7 @@ class _PullDownButtonState extends State<PullDownButton> {
     if (!apply) return buttonBuilder;
 
     return AnimatedOpacity(
-      opacity: isPressed ? 0.5 : 1,
+      opacity: 1,
       duration: kMenuDuration,
       curve: kCurve,
       child: buttonBuilder,
