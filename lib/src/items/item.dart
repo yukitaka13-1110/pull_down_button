@@ -49,7 +49,7 @@ class PullDownMenuItem extends PullDownMenuEntry {
   final bool enabled;
 
   /// Title of this [PullDownMenuItem].
-  final String title;
+  final Text title;
 
   /// Icon of this [PullDownMenuItem].
   ///
@@ -133,10 +133,7 @@ class PullDownMenuItem extends PullDownMenuEntry {
   Widget buildChild() => Row(
         children: [
           Expanded(
-            child: Text(
-              title,
-              textAlign: TextAlign.start,
-            ),
+            child: title,
           ),
           if (icon != null || iconWidget != null)
             Padding(
@@ -345,10 +342,7 @@ class SelectablePullDownMenuItem extends PullDownMenuItem {
             ),
           ),
           Expanded(
-            child: Text(
-              title,
-              textAlign: TextAlign.start,
-            ),
+            child: title,
           ),
           if (icon != null || iconWidget != null)
             Padding(

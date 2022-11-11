@@ -14,7 +14,7 @@ class Item extends StatelessWidget {
           itemBuilder: (context) => [
             PullDownMenuItem(
               onTap: () {},
-              title: 'Add to favorites',
+              title: const Text('Add to favorites'),
               icon: CupertinoIcons.star,
             ),
           ],

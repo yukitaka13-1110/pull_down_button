@@ -13,7 +13,7 @@ class SelectableItem extends StatelessWidget {
         pullDownButton: PullDownButton(
           itemBuilder: (context) => [
             SelectablePullDownMenuItem(
-              title: 'Grid',
+              title: const Text('Grid'),
               selected: true,
               onTap: () {},
               icon: CupertinoIcons.square_grid_2x2,

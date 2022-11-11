@@ -18,7 +18,7 @@ class Title extends StatelessWidget {
             const PullDownMenuDivider(),
             PullDownMenuItem(
               onTap: () {},
-              title: 'Add to favorites',
+              title: const Text('Add to favorites'),
               icon: CupertinoIcons.star,
             ),
           ],

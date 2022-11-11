@@ -95,7 +95,7 @@ void main() {
               ),
               PullDownMenuItem(
                 key: pullDownItem,
-                title: 'Item',
+                title: const Text('Item'),
                 onTap: () {},
               ),
             ],
@@ -163,7 +163,7 @@ void main() {
               ),
               PullDownMenuItem(
                 key: pullDownItem,
-                title: 'Item',
+                title: const Text('Item'),
                 onTap: () {},
               ),
             ],
@@ -236,7 +236,7 @@ void main() {
               PullDownMenuDivider(key: pullDownDivider),
               PullDownMenuItem(
                 key: pullDownItem,
-                title: 'Item',
+                title: const Text('Item'),
                 onTap: () {},
               ),
             ],
@@ -292,7 +292,7 @@ void main() {
               PullDownMenuItem(
                 onTap: () {},
                 key: pullDownItem,
-                title: 'Item',
+                title: const Text('Item'),
                 textStyle: textStyle,
               ),
             ],
