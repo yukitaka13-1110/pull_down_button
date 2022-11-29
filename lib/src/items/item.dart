@@ -49,7 +49,7 @@ class PullDownMenuItem extends PullDownMenuEntry {
   final bool enabled;
 
   /// Title of this [PullDownMenuItem].
-  final Text title;
+  final Widget title;
 
   /// Icon of this [PullDownMenuItem].
   ///
